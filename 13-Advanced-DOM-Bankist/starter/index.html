@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Bankist | When Banking meets Minimalist</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -21,6 +22,8 @@
           alt="Bankist logo"
           class="nav__logo"
           id="logo"
+          designer="jonas"
+          data-version-number="3.0"
         />
         <ul class="nav__links">
           <li class="nav__item">
@@ -41,6 +44,7 @@
       </nav>
 
       <div class="header__title">
+        <!-- <h1 onclick="alert('HTML Alert')""> -->
         <h1>
           When
           <!-- Green highlight effect -->
@@ -140,7 +144,10 @@
       <div class="operations">
         <div class="operations__tab-container">
           <button
-            class="btn operations__tab operations__tab--1 operations__tab--active"
+            class="
+              btn
+              operations__tab operations__tab--1 operations__tab--active
+            "
             data-tab="1"
           >
             <span>01</span>Instant Transfers
@@ -153,7 +160,11 @@
           </button>
         </div>
         <div
-          class="operations__content operations__content--1 operations__content--active"
+          class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          "
         >
           <div class="operations__icon operations__icon--1">
             <svg>
@@ -161,7 +172,7 @@
             </svg>
           </div>
           <h5 class="operations__header">
-            Tranfser money to anyone, instantly! No fees, no BS.
+            Transfer money to anyone, instantly! No fees, no BS.
           </h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -350,6 +361,6 @@
     </div>
     <div class="overlay hidden"></div>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
